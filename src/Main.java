@@ -1,8 +1,8 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
         int account = 100;
-        int summ = 1200;
-        int bonus = summ/100;
+        int summ = 1100;
+        int bonus = summ / 100;
         int total;
         if (summ > 1000) {
             total = account + summ + bonus;
@@ -12,7 +12,7 @@ public class main {
         }
         System.out.println("Итоговый счет:" + total);
         System.out.println("Бонусные рубли:" + bonus);
-        }
     }
+}
 
 
